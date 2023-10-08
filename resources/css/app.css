@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.copied-message {
+    width: 28%;
+    position: fixed;
+    top: 13%;
+    left: 35%;
+    right: 0;
+    background-color: #4caf50; /* Color verde */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #226a2b;
+
+    opacity: 0;
+    transition: opacity 0.4s;
+    pointer-events: none;
+}
+
+.go-to-link {
+    margin-top: -8px;
+}
+
+.select-all {
+    user-select: all;
+}
